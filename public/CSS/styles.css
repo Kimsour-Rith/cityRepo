@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Poppins&family=Roboto&display=swap');
+body{
+    /* width: 100%; */
+    height: 100%;
+    /*background: url("andrea-cau-nV7GJmSq3zc-unsplash.jpg");
+    /* background-color: #070404; */
+    /* background-size:cover; */
+}
+h1{
+    display: flexbox;
+    color: #080000;
+    font-family: 'Roboto', sans-serif;
+    font-style: bold;
+    font-size: 40px;
+    line-height: 40px;
+    justify-self: center;
+    text-align: center;
+}
+.container-fluid{
+    
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 40px;
+    /* margin-left: 90px;
+    margin-right: 90px; */
+    
+}
+.container-fluid > .row  {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    background-color: #4caeb165 ;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 50px;
+}
+
+table{
+    margin-right: 100px;
+    border-collapse: collapse;
+    
+   
+    
+}
+.col-5{
+    margin-right: 100px;
+}
+.table-1{
+    position: relative;
+    border: 0;
+    margin-right: 100px;
+}
+.table-2{
+    position: relative;
+    
+}
+table.list{
+    width:100%;
+   
+}
+#header{
+    /* color:#070404; */
+    color: #080404;
+    font-family: 'Roboto', sans-serif;
+    font-style: Medium;
+    font-size: 21px;
+    line-height: 30px;
+   
+}
+
+td, th {
+    /* border: 1px solid #dddddd; */
+    
+    text-align: center;
+    padding: 8px;
+    color:#0e0202;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    letter-spacing:1px;
+    line-height: 30px;
+}
+tr:nth-child(even),table.list thead>tr {
+    background: #262835b6;
+    
+}
+
+input[type=text], input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #262835b6;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button{
+    width: 40%;
+    background-color: #262835b6;
+    color: rgb(245, 237, 237);
+    font-size: 19px;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: 0px solid ;
+    border-radius:  8px;
+    cursor: pointer;
+}
+button:hover{
+    color: #fff;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #0fa,
+      0 0 82px #0fa,
+      0 0 92px rgb(0, 0, 0),
+      0 0 102px #0fa,
+      0 0 151px #0fa;
+}
+.submit:hover{
+    color: #fff;
+    background:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #0fa,
+      0 0 82px #0fa,
+      0 0 92px rgb(0, 0, 0),
+      0 0 102px #0fa,
+      0 0 151px #0fa;
+}
+
+form div.form-action-buttons{
+    text-align: right;
+}
+
+a{
+    width: 30%;
+    background-color: #7B7B7B;
+    padding: 8px 22px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(245, 237, 237);
+    border-radius: 4px;
+    margin-right: 3px;
+}
+
+label.validation-error{
+    color:   red;
+    margin-left: 5px;
+}
+
+.hide{
+    display:none;
+}
+@media (max-width: 768px) {
+    .container-fluid > .row  {
+        display: flex;
+        flex-direction: column;
+        padding-left: 50px;
+    }
+    .table-1{
+        margin: 0;
+        margin-bottom: 40px;
+        margin-right: 40px;
+    }
+    input[type=text], input[type=number]{
+        width: 20rem;
+    }
+ }
+

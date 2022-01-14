@@ -1,0 +1,29 @@
+{
+  "city": [
+    {
+      "id": "2",
+      "cityName": "Bang Kok",
+      "country": "Thai"
+    },
+    {
+      "id": "3",
+      "cityName": "Manil2222",
+      "country": "Philipin"
+    },
+    {
+      "id": "5",
+      "cityName": "Paris",
+      "country": "France"
+    },
+    {
+      "id": "6",
+      "cityName": "Kompot",
+      "country": "Cambodia"
+    },
+    {
+      "id": "10",
+      "cityName": "London100",
+      "country": "England222"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "city": [
+    {
+      "id": 1,
+      "cityName": "Phnom Penh",
+      "country": "Cambodia"
+    },
+    {
+      "id": 2,
+      "cityName": "Bang Kok",
+      "country": "Thai"
+    },
+    {
+      "id": 3,
+      "cityName": "Manil",
+      "country": "Philipin"
+    }
+
+  ]
+ 
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>City Repository</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <h1>City Repository</h1>
+        <div class="row">
+            <div class="col-5"> 
+                <table class="table-1" style="border: 0px;" id ="myTable">
+                        
+                    <form  autocomplete="off">
+                        <div>
+                            <label id="header">City Code *</label><label class="validation-error hide" id="CodeValidationError">All field are required.</label>
+                            <input type="number" name="Code" id="id" >
+                        </div>
+                        <div>
+                            <label id="header">City Name </label>
+                            <input type="text" name="cityName" id="cityName">
+                        </div>
+                        <div>
+                            <label id="header">Country Name </label>
+                            <input type="text" name="country" id="country">
+                        </div>
+                    
+                        <div class="btn">
+                            <button onclick="insertion()" id="insert" type="button" value="">Insert Record</button>
+                            <button onclick="deleteRecord()" id="delete" type="button" name="" value ="">Delete Record</button>
+                            <button onclick="editRecord()" id="update" type="button" name="" value ="">Update Record</button>
+                            <button onclick="searchRecord()" id="search" type="button" name="" value ="">Search Record</button>
+                        </div>
+                           
+                        
+                    </form>
+                         
+                </table>
+            </div>
+            <div class="col">     
+                <table class="list" id="CityList">
+                    <thead>
+                        <tr>
+                            <th >City Code</th>
+                            <th >City Name</th>
+                            <th >Country Name</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tbody"></tbody>
+                </table>         
+            </div>
+        </div>
+    </div>
+   
+    <script src="JS/index.js"></script>
+</body>
+
+</html>
